@@ -24,4 +24,4 @@ A complete E-Commerce Web Application that delivers a full online shopping exper
 
 ## 🚀 Live Demo
 
-👉 [Try the Live App](https://lnkd.in/dWcznc2b)
+👉 [Try the Live App](https://fresh-cart-mu-nine.vercel.app/)
