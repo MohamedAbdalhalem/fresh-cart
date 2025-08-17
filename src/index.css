@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .shadow-up-dark{
+        box-shadow: 0 -1px 3px 0 rgb(0 0 0 / 0.1);
+    }
+    .dark .shadow-up-light{
+        box-shadow: 0 -3px 5px 0px rgba(255, 255, 255, 0.08);
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.active{
+    color: blue !important;
+    font-weight: 700 !important;
+}
+.homeSlider .slick-dots li button{
+    position: relative;
+    top: -35px;
+}
+.slick-prev, .slick-next{
+    display: none !important;   
+    /* background-color: black !important; */
+}
+.productDetiales .slick-dots li button{
+    position: relative;
+    top: -30px;
+}
+.productDetiales .slick-dots li button:before{
+    color: blue;
+}
+.categoriesSlider .slick-dots {
+    display: none !important;
+}
+.orders .slick-dots li button::before{
+    /* display: none !important; */
+    position: relative;
+    top: -10px;
+    color: blue;
+    /* width: 50px !important; */
+    font-size: 10px;
+}
